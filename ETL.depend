@@ -1,7 +1,12 @@
 # depslib dependency file v1.0
-1480054206 source:c:\project game\etl\etl\mainprogram.cpp
+1480179240 source:c:\project game\etl\etl\mainprogram.cpp
 	<SFML/Graphics.hpp>
-	"zarzadzanie.h"
+	"Player.h"
+	"Entity.h"
+	"Enemy.h"
+	"Point.h"
+	<random.h>
+	<iostream>
 
 1470639234 c:\project game\biblioteki\sfml-2.4.1\include\sfml\graphics.hpp
 	<SFML/Window.hpp>
@@ -394,7 +399,7 @@
 1480001161 source:c:\project game\etl\etl\src\zarzadzanie.cpp
 	"zarzadzanie.h"
 
-1480063822 c:\project game\etl\etl\include\zarzadzanie.h
+1480064974 c:\project game\etl\etl\include\zarzadzanie.h
 	<SFML/Graphics.hpp>
 	"fps.h"
 
@@ -461,6 +466,237 @@
 	<SFML/System/Clock.hpp>
 	<SFML/Graphics.hpp>
 
-1480795791 source:c:\project game\etl - kopia\etl\mainprogram.cpp
+1480066720 source:c:\project game\etl\etl\entity.cpp
+	<Entity.h>
+
+1480155461 c:\project game\etl\etl\include\entity.h
+	<stdio.h>
+	<SFML/Audio.hpp>
 	<SFML/Graphics.hpp>
+	<iostream>
+	<cmath>
+	<cstdlib>
+	<functional>
+	<tgmath.h>
+	<deque>
+	<list>
+	<vector>
+	<unistd.h>
+
+1480067847 source:c:\project game\etl\etl\src\entity.cpp
+	"Entity.h"
+
+1470639234 c:\project game\biblioteki\sfml-2.4.1\include\sfml\audio.hpp
+	<SFML/System.hpp>
+	<SFML/Audio/InputSoundFile.hpp>
+	<SFML/Audio/Listener.hpp>
+	<SFML/Audio/Music.hpp>
+	<SFML/Audio/OutputSoundFile.hpp>
+	<SFML/Audio/Sound.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundBufferRecorder.hpp>
+	<SFML/Audio/SoundFileFactory.hpp>
+	<SFML/Audio/SoundFileReader.hpp>
+	<SFML/Audio/SoundFileWriter.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/Audio/SoundStream.hpp>
+
+1478253376 c:\project game\biblioteki\sfml-2.4.1\include\sfml\audio\inputsoundfile.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+
+1470639234 c:\project game\biblioteki\sfml-2.4.1\include\sfml\audio\export.hpp
+	<SFML/Config.hpp>
+
+1470639234 c:\project game\biblioteki\sfml-2.4.1\include\sfml\audio\listener.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Vector3.hpp>
+
+1478253376 c:\project game\biblioteki\sfml-2.4.1\include\sfml\audio\music.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundStream.hpp>
+	<SFML/Audio/InputSoundFile.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+
+1478253376 c:\project game\biblioteki\sfml-2.4.1\include\sfml\audio\soundstream.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Mutex.hpp>
+	<cstdlib>
+
+1470639234 c:\project game\biblioteki\sfml-2.4.1\include\sfml\audio\soundsource.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/AlResource.hpp>
+	<SFML/System/Vector3.hpp>
+
+1470639234 c:\project game\biblioteki\sfml-2.4.1\include\sfml\audio\alresource.hpp
+	<SFML/Audio/Export.hpp>
+
+1470639234 c:\project game\biblioteki\sfml-2.4.1\include\sfml\audio\outputsoundfile.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<string>
+
+1470639234 c:\project game\biblioteki\sfml-2.4.1\include\sfml\audio\sound.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Time.hpp>
+	<cstdlib>
+
+1470639234 c:\project game\biblioteki\sfml-2.4.1\include\sfml\audio\soundbuffer.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/AlResource.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+	<set>
+
+1470639234 c:\project game\biblioteki\sfml-2.4.1\include\sfml\audio\soundbufferrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<vector>
+
+1470639234 c:\project game\biblioteki\sfml-2.4.1\include\sfml\audio\soundrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/AlResource.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Time.hpp>
+	<vector>
+	<string>
+
+1470639234 c:\project game\biblioteki\sfml-2.4.1\include\sfml\audio\soundfilefactory.hpp
+	<SFML/Audio/Export.hpp>
+	<string>
+	<vector>
+	<SFML/Audio/SoundFileFactory.inl>
+
+1470639234 c:\project game\biblioteki\sfml-2.4.1\include\sfml\audio\soundfilefactory.inl
+
+1470639234 c:\project game\biblioteki\sfml-2.4.1\include\sfml\audio\soundfilereader.hpp
+	<SFML/Audio/Export.hpp>
+	<string>
+
+1470639234 c:\project game\biblioteki\sfml-2.4.1\include\sfml\audio\soundfilewriter.hpp
+	<SFML/Audio/Export.hpp>
+	<string>
+
+1480069038 source:c:\project game\etl\etl\src\abc.cpp
+	"abc.h"
+
+1480069038 c:\project game\etl\etl\include\abc.h
+
+1480174571 source:c:\project game\etl\etl\src\player.cpp
+	"Player.h"
+
+1480073041 c:\project game\etl\etl\include\player.h
+	"Entity.h"
+
+1480179296 source:c:\project game\etl\etl\src\enemy.cpp
+	"Enemy.h"
+	"random.h"
+
+1480178477 c:\project game\etl\etl\include\enemy.h
+	"Entity.h"
+
+1480076338 source:c:\project game\etl\etl\src\random.cpp
+	"random.h"
+
+1480080452 c:\project game\etl\etl\include\random.h
+	<stdio.h>
+	<SFML/Audio.hpp>
+	<SFML/Graphics.hpp>
+	<iostream>
+	<random.h>
+	<cmath>
+	<cstdlib>
+	<functional>
+	<tgmath.h>
+	<deque>
+	<list>
+	<vector>
+	<unistd.h>
+
+1480164252 source:c:\project game\etl\etl\src\points.cpp
+	"Points.h"
+
+1480164336 c:\project game\etl\etl\include\points.h
+	"Entity.h"
+
+1480167921 source:c:\project game\etl\etl\src\point.cpp
+	"Point.h"
+
+1480167663 c:\project game\etl\etl\include\point.h
+	"Entity.h"
+
+1480179240 source:c:\project game\etl - kopia (2)\etl\mainprogram.cpp
+	<SFML/Graphics.hpp>
+	"Player.h"
+	"Entity.h"
+	"Enemy.h"
+	"Point.h"
+	<random.h>
+	<iostream>
+
+1480073041 c:\project game\etl - kopia (2)\etl\include\player.h
+	"Entity.h"
+
+1480155461 c:\project game\etl - kopia (2)\etl\include\entity.h
+	<stdio.h>
+	<SFML/Audio.hpp>
+	<SFML/Graphics.hpp>
+	<iostream>
+	<cmath>
+	<cstdlib>
+	<functional>
+	<tgmath.h>
+	<deque>
+	<list>
+	<vector>
+	<unistd.h>
+
+1480178477 c:\project game\etl - kopia (2)\etl\include\enemy.h
+	"Entity.h"
+
+1480167663 c:\project game\etl - kopia (2)\etl\include\point.h
+	"Entity.h"
+
+1480080452 c:\project game\etl - kopia (2)\etl\include\random.h
+	<stdio.h>
+	<SFML/Audio.hpp>
+	<SFML/Graphics.hpp>
+	<iostream>
+	<random.h>
+	<cmath>
+	<cstdlib>
+	<functional>
+	<tgmath.h>
+	<deque>
+	<list>
+	<vector>
+	<unistd.h>
+
+1480179406 source:c:\project game\etl - kopia (2)\etl\src\enemy.cpp
+	"Enemy.h"
+	"random.h"
+
+1480067847 source:c:\project game\etl - kopia (2)\etl\src\entity.cpp
+	"Entity.h"
+
+1480174571 source:c:\project game\etl - kopia (2)\etl\src\player.cpp
+	"Player.h"
+
+1480167921 source:c:\project game\etl - kopia (2)\etl\src\point.cpp
+	"Point.h"
+
+1480076338 source:c:\project game\etl - kopia (2)\etl\src\random.cpp
+	"random.h"
 

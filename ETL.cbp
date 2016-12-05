@@ -54,6 +54,16 @@
 			<Add directory="C:/Project Game/Biblioteki/SFML-2.4.1/lib" />
 		</Linker>
 		<Unit filename="MainProgram.cpp" />
+		<Unit filename="include/Enemy.h" />
+		<Unit filename="include/Entity.h" />
+		<Unit filename="include/Player.h" />
+		<Unit filename="include/Point.h" />
+		<Unit filename="include/random.h" />
+		<Unit filename="src/Enemy.cpp" />
+		<Unit filename="src/Entity.cpp" />
+		<Unit filename="src/Player.cpp" />
+		<Unit filename="src/Point.cpp" />
+		<Unit filename="src/random.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
