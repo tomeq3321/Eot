@@ -6,6 +6,7 @@
 class Point : public Entity
 {
     public:
+        bool ZebranyPunkt=false;
         Point();
 
         void update();

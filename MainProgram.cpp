@@ -4,6 +4,7 @@
 #include "Enemy.h"
 #include "Point.h"
 #include<random.h>
+#include<vector>
 
 #include<iostream>
 
@@ -150,12 +151,31 @@ for(iter2= TablicaPunktow.begin(); iter2!= TablicaPunktow.end();iter2++)
 {
    if(TablicaPunktow[licznik3].rect.getGlobalBounds().intersects(gracz.rect.getGlobalBounds()))
     {
+        LiczbaPunktow=LiczbaPunktow+1;
+        TablicaPunktow[licznik3].ZebranyPunkt=true;
 
-LiczbaPunktow=LiczbaPunktow+1;
-    OknoAplikacji.close();
     }
 licznik3++;
 }
+
+licznik3=0;
+for(iter2= TablicaPunktow.begin(); iter2!= TablicaPunktow.end();iter2++)
+{
+    if(TablicaPunktow[licznik3].ZebranyPunkt==true)
+    {
+       // OknoAplikacji.close();
+        TablicaPunktow.erase(TablicaPunktow.begin());
+
+      Punkty.rect.setPosition(rand ()% (OknoAplikacji.getSize().x-200) +100,rand ()% (OknoAplikacji.getSize().y-200) +100);
+
+      TablicaPunktow.push_back(Punkty);
+      Punkty.ZebranyPunkt=false;
+      break;
+    }
+licznik3++;
+}
+
+
 
             gracz.update();
             gracz.Steruj();

@@ -1,11 +1,12 @@
 # depslib dependency file v1.0
-1480179240 source:c:\project game\etl\etl\mainprogram.cpp
+1480185404 source:c:\project game\etl\etl\mainprogram.cpp
 	<SFML/Graphics.hpp>
 	"Player.h"
 	"Entity.h"
 	"Enemy.h"
 	"Point.h"
 	<random.h>
+	<vector>
 	<iostream>
 
 1470639234 c:\project game\biblioteki\sfml-2.4.1\include\sfml\graphics.hpp
@@ -600,7 +601,7 @@
 1480073041 c:\project game\etl\etl\include\player.h
 	"Entity.h"
 
-1480179296 source:c:\project game\etl\etl\src\enemy.cpp
+1480179406 source:c:\project game\etl\etl\src\enemy.cpp
 	"Enemy.h"
 	"random.h"
 
@@ -634,22 +635,23 @@
 1480167921 source:c:\project game\etl\etl\src\point.cpp
 	"Point.h"
 
-1480167663 c:\project game\etl\etl\include\point.h
+1480180196 c:\project game\etl\etl\include\point.h
 	"Entity.h"
 
-1480179240 source:c:\project game\etl - kopia (2)\etl\mainprogram.cpp
+1480185404 source:c:\project game\nowa 1\etl\mainprogram.cpp
 	<SFML/Graphics.hpp>
 	"Player.h"
 	"Entity.h"
 	"Enemy.h"
 	"Point.h"
 	<random.h>
+	<vector>
 	<iostream>
 
-1480073041 c:\project game\etl - kopia (2)\etl\include\player.h
+1480073041 c:\project game\nowa 1\etl\include\player.h
 	"Entity.h"
 
-1480155461 c:\project game\etl - kopia (2)\etl\include\entity.h
+1480155461 c:\project game\nowa 1\etl\include\entity.h
 	<stdio.h>
 	<SFML/Audio.hpp>
 	<SFML/Graphics.hpp>
@@ -663,13 +665,13 @@
 	<vector>
 	<unistd.h>
 
-1480178477 c:\project game\etl - kopia (2)\etl\include\enemy.h
+1480178477 c:\project game\nowa 1\etl\include\enemy.h
 	"Entity.h"
 
-1480167663 c:\project game\etl - kopia (2)\etl\include\point.h
+1480180196 c:\project game\nowa 1\etl\include\point.h
 	"Entity.h"
 
-1480080452 c:\project game\etl - kopia (2)\etl\include\random.h
+1480080452 c:\project game\nowa 1\etl\include\random.h
 	<stdio.h>
 	<SFML/Audio.hpp>
 	<SFML/Graphics.hpp>
@@ -684,19 +686,19 @@
 	<vector>
 	<unistd.h>
 
-1480179406 source:c:\project game\etl - kopia (2)\etl\src\enemy.cpp
+1480179406 source:c:\project game\nowa 1\etl\src\enemy.cpp
 	"Enemy.h"
 	"random.h"
 
-1480067847 source:c:\project game\etl - kopia (2)\etl\src\entity.cpp
+1480067847 source:c:\project game\nowa 1\etl\src\entity.cpp
 	"Entity.h"
 
-1480174571 source:c:\project game\etl - kopia (2)\etl\src\player.cpp
+1480174571 source:c:\project game\nowa 1\etl\src\player.cpp
 	"Player.h"
 
-1480167921 source:c:\project game\etl - kopia (2)\etl\src\point.cpp
+1480167921 source:c:\project game\nowa 1\etl\src\point.cpp
 	"Point.h"
 
-1480076338 source:c:\project game\etl - kopia (2)\etl\src\random.cpp
+1480076338 source:c:\project game\nowa 1\etl\src\random.cpp
 	"random.h"
 
