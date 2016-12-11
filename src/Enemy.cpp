@@ -3,7 +3,7 @@
 
 Enemy::Enemy()
 {
-    rect.setSize(sf::Vector2f(32, 32));
+    rect.setSize(sf::Vector2f(10,10));
     rect.setPosition(800,400);
     rect.setFillColor(sf::Color::Blue);
 
@@ -12,6 +12,7 @@ Enemy::Enemy()
 void Enemy::update()
 {
 sprite.setPosition(rect.getPosition());
+sprite.setOrigin(22,27);
 }
 
 void Enemy::Steruj()
@@ -20,6 +21,7 @@ void Enemy::Steruj()
  {
      if (sprite.getPosition().y>50)
      {
+        sprite.setRotation(0);
         rect.move(0,-PredkoscPoruszaniaPostaci);
      }
  }
@@ -28,6 +30,7 @@ void Enemy::Steruj()
  {
      if (sprite.getPosition().y<600)
      {
+        sprite.setRotation(180);
         rect.move(0,PredkoscPoruszaniaPostaci);
      }
  }
@@ -36,6 +39,7 @@ void Enemy::Steruj()
  {
      if (sprite.getPosition().x>50)
      {
+         sprite.setRotation(-90);
         rect.move(-PredkoscPoruszaniaPostaci,0);
      }
  }
@@ -43,6 +47,7 @@ void Enemy::Steruj()
  {
      if (sprite.getPosition().x<914)
      {
+         sprite.setRotation(90);
         rect.move(PredkoscPoruszaniaPostaci,0);
      }
  }

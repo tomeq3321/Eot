@@ -10,6 +10,7 @@ Point::Point()
 
 void Point::update()
 {
+sprite.setOrigin(12,12);
 sprite.setPosition(rect.getPosition());
 }
 
@@ -18,4 +19,13 @@ void Point::LosujPolozeniePunktu()
 
 }
 
+string Point::WyswietlPunkty(int LiczbaPunktowMet)
+{
+
+	stringstream LiczbaPunktowTekst;
+	LiczbaPunktowTekst<<LiczbaPunktowMet;
+
+	return LiczbaPunktowTekst.str();
+
+}
 

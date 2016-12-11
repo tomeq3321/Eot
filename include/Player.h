@@ -7,6 +7,7 @@ class Player : public Entity
     public:
         int PredkoscPoruszaniaPostaci=3;
         int KrawedzPola=100;
+        int iloscZyc=3;
 
         Player();
 
