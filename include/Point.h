@@ -2,7 +2,6 @@
 #define POINT_H
 
 #include "Entity.h"
-#include <sstream>
 
 class Point : public Entity
 {

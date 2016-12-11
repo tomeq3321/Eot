@@ -57,6 +57,7 @@ void Enemy::Control()
     counter++;
     if(counter>=movingLenght)
     {
+
         direction = generateRandom(8);
         counter=0;
     }

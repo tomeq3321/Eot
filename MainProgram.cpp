@@ -6,7 +6,6 @@
 #include "Point.h"
 #include<random.h>
 #include<vector>
-
 #include<iostream>
 
 using namespace sf;
@@ -42,29 +41,29 @@ int main()
 
 
     // wczytywanie tekstór z plików ///////////////////////////////////////
-    MenuTex.loadFromFile("Tekstury\\menuTlo.png");
+    if(!MenuTex.loadFromFile("Tekstury\\menuTlo.png")) exit(-1);
     MenuSpr.setTexture(MenuTex);
 
-    MenuStartTex.loadFromFile("Tekstury\\menuStart.png");
+    if(!MenuStartTex.loadFromFile("Tekstury\\menuStart.png")) exit(-1);
     MenuStartSpr.setTexture(MenuStartTex);
     MenuStartSpr.setPosition(100,368);
 
-    MenuAuthorsTex.loadFromFile("Tekstury\\menuAutorzy.png");
+    if(!MenuAuthorsTex.loadFromFile("Tekstury\\menuAutorzy.png")) exit(-1);
     MenuAuthorsSpr.setTexture(MenuAuthorsTex);
     MenuAuthorsSpr.setPosition(100,418);
 
-    MenuOptionsTex.loadFromFile("Tekstury\\menuOpcje.png");
+    if(!MenuOptionsTex.loadFromFile("Tekstury\\menuOpcje.png")) exit(-1);
     MenuOptionsSpr.setTexture(MenuOptionsTex);
     MenuOptionsSpr.setPosition(100,468);
 
-    MenuExitTex.loadFromFile("Tekstury\\menuWyjscie.png");
+    if(!MenuExitTex.loadFromFile("Tekstury\\menuWyjscie.png")) exit(-1);
     MenuExitSpr.setTexture(MenuExitTex);
     MenuExitSpr.setPosition(100,518);
 
-    MenuOptionsBackgroundTex.loadFromFile("Tekstury\\MenuOpcjeTlo.png");
+    if(!MenuOptionsBackgroundTex.loadFromFile("Tekstury\\MenuOpcjeTlo.png")) exit(-1);
     MenuOptionsBackgroundSpr.setTexture(MenuOptionsBackgroundTex);
 
-    MenuAuthorsBackgroundTex.loadFromFile("Tekstury\\MenuAutorzyTlo.png");
+    if(!MenuAuthorsBackgroundTex.loadFromFile("Tekstury\\MenuAutorzyTlo.png")) exit(-1);
     MenuAuthorsBackgroundSpr.setTexture(MenuAuthorsBackgroundTex);
 
 
@@ -118,22 +117,22 @@ int main()
 
 
                 //Wczytanie Tekstur i Spritow z plików ////////////////////////////////////////////////////////////////////////
-                characterTex.loadFromFile("Tekstury\\postac.png");
+                if(!characterTex.loadFromFile("Tekstury\\postac.png")) exit(-1);
 
-                enemiesTex.loadFromFile("Tekstury\\wrog.png");
+                if(!enemiesTex.loadFromFile("Tekstury\\wrog.png")) exit(-1);
 
-                fieldBorderTex.loadFromFile("Tekstury\\poleObr.png");
+                if(!fieldBorderTex.loadFromFile("Tekstury\\poleObr.png")) exit(-1);
                 fieldBorderSpr.setTexture(fieldBorderTex);
 
-                fieldTex.loadFromFile("Tekstury\\pole.png");
+                if(!fieldTex.loadFromFile("Tekstury\\pole.png")) exit(-1);
                 FieldSpr.setTexture(fieldTex);
 
-                FruitTex.loadFromFile("Tekstury\\owoc.png");
+                if(!FruitTex.loadFromFile("Tekstury\\owoc.png")) exit(-1);
 
-                gameOverTex.loadFromFile("Tekstury\\koniecGry.png");
+                if(!gameOverTex.loadFromFile("Tekstury\\koniecGry.png")) exit(-1);
                 GameOverSpr.setTexture(gameOverTex);
 
-                starvationBarTex.loadFromFile("Tekstury\\pasekGlodu.png");
+                if(!starvationBarTex.loadFromFile("Tekstury\\pasekGlodu.png")) exit(-1);
                 starvationBarSpr.setTexture(starvationBarTex);
 
                 starvationBarSpr.setPosition(512,30);

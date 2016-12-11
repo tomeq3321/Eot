@@ -1,12 +1,11 @@
 # depslib dependency file v1.0
-1481391413 source:c:\project game\etl\etl\mainprogram.cpp
+1481472688 source:c:\project game\etl\etl\mainprogram.cpp
 	<SFML/Graphics.hpp>
 	<SFML/Graphics/Text.hpp>
 	"Player.h"
 	"Entity.h"
 	"Enemy.h"
 	"Point.h"
-	"TheGame.h"
 	<random.h>
 	<vector>
 	<iostream>
@@ -472,19 +471,9 @@
 1480066720 source:c:\project game\etl\etl\entity.cpp
 	<Entity.h>
 
-1481392024 c:\project game\etl\etl\include\entity.h
-	<stdio.h>
-	<SFML/Audio.hpp>
+1481471113 c:\project game\etl\etl\include\entity.h
 	<SFML/Graphics.hpp>
-	<iostream>
-	<cmath>
 	<cstdlib>
-	<functional>
-	<tgmath.h>
-	<deque>
-	<list>
-	<vector>
-	<unistd.h>
 
 1480067847 source:c:\project game\etl\etl\src\entity.cpp
 	"Entity.h"
@@ -597,36 +586,24 @@
 
 1480069038 c:\project game\etl\etl\include\abc.h
 
-1481392024 source:c:\project game\etl\etl\src\player.cpp
+1481392619 source:c:\project game\etl\etl\src\player.cpp
 	"Player.h"
 
-1481388683 c:\project game\etl\etl\include\player.h
+1481469552 c:\project game\etl\etl\include\player.h
 	"Entity.h"
 
-1481392024 source:c:\project game\etl\etl\src\enemy.cpp
+1481469156 source:c:\project game\etl\etl\src\enemy.cpp
 	"Enemy.h"
 	"random.h"
 
-1481392024 c:\project game\etl\etl\include\enemy.h
+1481469552 c:\project game\etl\etl\include\enemy.h
 	"Entity.h"
 
 1480076338 source:c:\project game\etl\etl\src\random.cpp
 	"random.h"
 
-1481392024 c:\project game\etl\etl\include\random.h
-	<stdio.h>
-	<SFML/Audio.hpp>
-	<SFML/Graphics.hpp>
-	<iostream>
-	<random.h>
-	<cmath>
+1481470675 c:\project game\etl\etl\include\random.h
 	<cstdlib>
-	<functional>
-	<tgmath.h>
-	<deque>
-	<list>
-	<vector>
-	<unistd.h>
 
 1480164252 source:c:\project game\etl\etl\src\points.cpp
 	"Points.h"
@@ -637,9 +614,8 @@
 1481392024 source:c:\project game\etl\etl\src\point.cpp
 	"Point.h"
 
-1481392024 c:\project game\etl\etl\include\point.h
+1481469633 c:\project game\etl\etl\include\point.h
 	"Entity.h"
-	<sstream>
 
 1480765050 source:c:\project game\etl\etl\src\thegame.cpp
 	"TheGame.h"
