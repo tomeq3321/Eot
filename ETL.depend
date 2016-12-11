@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1480793839 source:c:\project game\etl\etl\mainprogram.cpp
+1481391413 source:c:\project game\etl\etl\mainprogram.cpp
 	<SFML/Graphics.hpp>
 	<SFML/Graphics/Text.hpp>
 	"Player.h"
@@ -472,7 +472,7 @@
 1480066720 source:c:\project game\etl\etl\entity.cpp
 	<Entity.h>
 
-1480155461 c:\project game\etl\etl\include\entity.h
+1481392024 c:\project game\etl\etl\include\entity.h
 	<stdio.h>
 	<SFML/Audio.hpp>
 	<SFML/Graphics.hpp>
@@ -597,23 +597,23 @@
 
 1480069038 c:\project game\etl\etl\include\abc.h
 
-1480791603 source:c:\project game\etl\etl\src\player.cpp
+1481392024 source:c:\project game\etl\etl\src\player.cpp
 	"Player.h"
 
-1480773513 c:\project game\etl\etl\include\player.h
+1481388683 c:\project game\etl\etl\include\player.h
 	"Entity.h"
 
-1480787936 source:c:\project game\etl\etl\src\enemy.cpp
+1481392024 source:c:\project game\etl\etl\src\enemy.cpp
 	"Enemy.h"
 	"random.h"
 
-1480178477 c:\project game\etl\etl\include\enemy.h
+1481392024 c:\project game\etl\etl\include\enemy.h
 	"Entity.h"
 
 1480076338 source:c:\project game\etl\etl\src\random.cpp
 	"random.h"
 
-1480080452 c:\project game\etl\etl\include\random.h
+1481392024 c:\project game\etl\etl\include\random.h
 	<stdio.h>
 	<SFML/Audio.hpp>
 	<SFML/Graphics.hpp>
@@ -634,10 +634,10 @@
 1480164336 c:\project game\etl\etl\include\points.h
 	"Entity.h"
 
-1480788185 source:c:\project game\etl\etl\src\point.cpp
+1481392024 source:c:\project game\etl\etl\src\point.cpp
 	"Point.h"
 
-1480774287 c:\project game\etl\etl\include\point.h
+1481392024 c:\project game\etl\etl\include\point.h
 	"Entity.h"
 	<sstream>
 
@@ -652,80 +652,4 @@
 	"Point.h"
 	<random.h>
 	<vector>
-
-1481299318 source:c:\project game\etl - dobry\etl\mainprogram.cpp
-	<SFML/Graphics.hpp>
-	<SFML/Graphics/Text.hpp>
-	"Player.h"
-	"Entity.h"
-	"Enemy.h"
-	"Point.h"
-	"TheGame.h"
-	<random.h>
-	<vector>
-	<iostream>
-
-1480773513 c:\project game\etl - dobry\etl\include\player.h
-	"Entity.h"
-
-1480155461 c:\project game\etl - dobry\etl\include\entity.h
-	<stdio.h>
-	<SFML/Audio.hpp>
-	<SFML/Graphics.hpp>
-	<iostream>
-	<cmath>
-	<cstdlib>
-	<functional>
-	<tgmath.h>
-	<deque>
-	<list>
-	<vector>
-	<unistd.h>
-
-1480178477 c:\project game\etl - dobry\etl\include\enemy.h
-	"Entity.h"
-
-1480774287 c:\project game\etl - dobry\etl\include\point.h
-	"Entity.h"
-	<sstream>
-
-1480765662 c:\project game\etl - dobry\etl\include\thegame.h
-	<SFML/Graphics.hpp>
-	"Player.h"
-	"Entity.h"
-	"Enemy.h"
-	"Point.h"
-	<random.h>
-	<vector>
-
-1480080452 c:\project game\etl - dobry\etl\include\random.h
-	<stdio.h>
-	<SFML/Audio.hpp>
-	<SFML/Graphics.hpp>
-	<iostream>
-	<random.h>
-	<cmath>
-	<cstdlib>
-	<functional>
-	<tgmath.h>
-	<deque>
-	<list>
-	<vector>
-	<unistd.h>
-
-1480787936 source:c:\project game\etl - dobry\etl\src\enemy.cpp
-	"Enemy.h"
-	"random.h"
-
-1480067847 source:c:\project game\etl - dobry\etl\src\entity.cpp
-	"Entity.h"
-
-1480788185 source:c:\project game\etl - dobry\etl\src\point.cpp
-	"Point.h"
-
-1480076338 source:c:\project game\etl - dobry\etl\src\random.cpp
-	"random.h"
-
-1481299759 source:c:\project game\etl - dobry\etl\src\player.cpp
-	"Player.h"
 

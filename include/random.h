@@ -20,8 +20,8 @@
 
 using namespace std;
 
-int generateRandom(int max);
-int generateRandom0(int max);
-bool generateRandomBool();
+    int generateRandom(int max);
+    int generateRandom0(int max);
+    bool generateRandomBool();
 
 #endif /* defined(__InstallingSFML__random__) */

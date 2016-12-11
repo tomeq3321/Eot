@@ -9,11 +9,11 @@ class Point : public Entity
     public:
         bool ZebranyPunkt=false;
         int LiczbaPunktow=0;
+
         Point();
 
         void update();
-        void LosujPolozeniePunktu();
-        string WyswietlPunkty(int);
+
     protected:
 
     private:

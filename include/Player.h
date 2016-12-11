@@ -5,14 +5,13 @@
 class Player : public Entity
 {
     public:
-        int PredkoscPoruszaniaPostaci=3;
-        int KrawedzPola=100;
-        int iloscZyc=3;
+        int movementSpeedChar=3;
+        int livesCounter=3;
 
         Player();
 
        void update();
-       void Steruj();
+       void Control();
     protected:
 
     private:

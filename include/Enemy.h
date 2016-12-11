@@ -5,17 +5,15 @@
 class Enemy : public Entity
 {
     public:
-       int PredkoscPoruszaniaPostaci=2;
-       int KrawedzPola=100;
-       int direction = 0;
-       int counter = 0;
-       int movingLenght=40;
-
+        int movementSpeed=2;
+        int direction = 0;
+        int counter = 0;
+        int movingLenght=40;
 
         Enemy();
 
-      void update();
-      void Steruj();
+        void update();
+        void Control();
 
     protected:
 

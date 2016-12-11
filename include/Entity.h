@@ -14,17 +14,14 @@
 #include <vector>
 #include <unistd.h>
 
-
-
 using namespace std;
 
 class Entity
 {
     public:
-   sf::RectangleShape rect;
-    sf::Sprite sprite;
-    sf::Text text;
-
+        sf::RectangleShape rect;
+        sf::Sprite sprite;
+        sf::Text text;
 
     protected:
 

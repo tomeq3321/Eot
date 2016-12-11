@@ -9,71 +9,60 @@ Player::Player()
 
 void Player::update()
 {
-sprite.setPosition(rect.getPosition());
-sprite.setOrigin(22,17);
+    sprite.setPosition(rect.getPosition());
+    sprite.setOrigin(22,17);
 }
 
-void Player::Steruj()
+void Player::Control()
 {
-
- if(sf::Keyboard::isKeyPressed(sf::Keyboard::Up))
- {
-    if(sprite.getPosition().y>50)
+    if(sf::Keyboard::isKeyPressed(sf::Keyboard::Up))
     {
-    sprite.setRotation(+0);
-    rect.move(0,-PredkoscPoruszaniaPostaci);
+        if(sprite.getPosition().y>50)
+        {
+        sprite.setRotation(+0);
+        rect.move(0,-movementSpeedChar);
+        }
     }
- }
-
-  if(sf::Keyboard::isKeyPressed(sf::Keyboard::Down))
- {
-
-    if(sprite.getPosition().y<718)
+    if(sf::Keyboard::isKeyPressed(sf::Keyboard::Down))
     {
-    sprite.setRotation(+180);
-    rect.move(0,PredkoscPoruszaniaPostaci);
+        if(sprite.getPosition().y<718)
+        {
+            sprite.setRotation(+180);
+            rect.move(0,movementSpeedChar);
+        }
     }
- }
-
-     if(sf::Keyboard::isKeyPressed(sf::Keyboard::Left))
- {
-    if(rect.getPosition().x>50)
+    if(sf::Keyboard::isKeyPressed(sf::Keyboard::Left))
     {
-    sprite.setRotation(-90);
-    rect.move(-PredkoscPoruszaniaPostaci,0);
+        if(rect.getPosition().x>50)
+        {
+        sprite.setRotation(-90);
+        rect.move(-movementSpeedChar,0);
+        }
     }
- }
-
-   if(sf::Keyboard::isKeyPressed(sf::Keyboard::Right))
- {
-    if(sprite.getPosition().x<910)
+    if(sf::Keyboard::isKeyPressed(sf::Keyboard::Right))
     {
-    sprite.setRotation(+90);
-    rect.move(PredkoscPoruszaniaPostaci,0);
+        if(sprite.getPosition().x<935)
+        {
+            sprite.setRotation(+90);
+            rect.move(movementSpeedChar,0);
+        }
     }
- }
-  if(sf::Keyboard::isKeyPressed(sf::Keyboard::Down) && sf::Keyboard::isKeyPressed(sf::Keyboard::Left))
- {
-    sprite.setRotation(+225);
- }
 
- if(sf::Keyboard::isKeyPressed(sf::Keyboard::Down)  && sf::Keyboard::isKeyPressed(sf::Keyboard::Right))
- {
-    sprite.setRotation(+135);
- }
-
-  if(sf::Keyboard::isKeyPressed(sf::Keyboard::Up) && sf::Keyboard::isKeyPressed(sf::Keyboard::Left))
- {
-    sprite.setRotation(-45);
- }
-
-  if(sf::Keyboard::isKeyPressed(sf::Keyboard::Up) && sf::Keyboard::isKeyPressed(sf::Keyboard::Right))
- {
-    sprite.setRotation(+45);
- }
-
-
-
-
+   if(sf::Keyboard::isKeyPressed(sf::Keyboard::Down) && sf::Keyboard::isKeyPressed(sf::Keyboard::Left))
+    {
+        sprite.setRotation(+225);
+    }
+    if(sf::Keyboard::isKeyPressed(sf::Keyboard::Down)  && sf::Keyboard::isKeyPressed(sf::Keyboard::Right))
+    {
+        sprite.setRotation(+135);
+    }
+    if(sf::Keyboard::isKeyPressed(sf::Keyboard::Up) && sf::Keyboard::isKeyPressed(sf::Keyboard::Left))
+    {
+        sprite.setRotation(-45);
+    }
+    if(sf::Keyboard::isKeyPressed(sf::Keyboard::Up) && sf::Keyboard::isKeyPressed(sf::Keyboard::Right))
+    {
+        sprite.setRotation(+45);
+    }
 }
 
