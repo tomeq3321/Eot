@@ -1,0 +1,29 @@
+Dêbski Damian:
+
+-grafika (bohater, przeciwnik, przyciski, inne pomniejsze szczegó³y)
+-klasa point i implementacja w programie g³ównym
+-klasa player i implementacja w programie g³ównym
+-menu g³ówne (czêœæ)
+-kod gry (mniejsza czêœæ)
+
+
+Doliwa Tomasz:
+
+-grafik (pole gry, menu, reszta)
+-klasa enemy i implementacja w programie
+-klasa entity 
+-klasa player i implementacja w programie g³ównym
+-menu g³ówne (czêœæ)
+-kod gry (wieksza czêœæ)
+
+**Podzia³ pisany na zasadzie wiekszoœci pracy przy danej czêœci**
+
+
+
+
+W razie bardziej szczegó³owych pytañ proszê o kontakt na zajêciach lub pod adres: doliwa1994@wp.pl
+
+Kod by³ pisany w czasie rónoleg³ym, na dwóch komputerach.
+Ca³y kod by³ ³¹czony na jednym komputerze i wysy³any z jednego konta zarz¹dzaj¹cego githubem.
+
+  
